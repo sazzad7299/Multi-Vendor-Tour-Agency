@@ -1,0 +1,156 @@
+/*-------- 3.1 Preloader --------*/
+[data-loader="circle-side"] {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	-webkit-animation: circle infinite .95s linear;
+	-moz-animation: circle infinite .95s linear;
+	-o-animation: circle infinite .95s linear;
+	animation: circle infinite .95s linear;
+	border: 2px solid #00a99d;
+	border-top-color: rgba(0, 0, 0, .2);
+	border-right-color: rgba(0, 0, 0, .2);
+	border-bottom-color: rgba(0, 0, 0, .2);
+	border-radius: 100%;
+}
+/*-------- 1.2 Buttons --------*/
+	a.button_intro_2,
+	.button_intro_2 {
+		background: #00a99d;
+	}
+	a.button_intro_2:hover,
+	.button_intro_2:hover {
+		color: #00a99d !important;
+	}
+	a.btn_full,
+	.btn_full {
+		background: #00a99d;
+	}
+	a.btn_full:hover,
+	.btn_full:hover {
+		background: #333;
+	}
+	a.btn_1,
+	.btn_1 {
+		background: #00a99d;
+	}
+	a.btn_1:hover,
+	.btn_1:hover {
+		background: #333;
+	}
+	a.btn_1_outline,
+	.btn_1_outline {
+		color: #00a99d;
+		border: 2px solid #00a99d;
+	}
+	a.btn_1_outline:hover,
+	.btn_1_outline:hover {
+		background: #333;
+		border: 2px solid #333;
+		color: #fff;
+	}
+	/*General links color*/
+	a {
+		color: #00a99d;
+	}
+	a:hover,
+	a:focus {
+		color: #333;
+	}
+/*============================================================================================*/
+/* MENU */
+/*============================================================================================*/
+
+	ul#tools_top li a.search-overlay-menu-btn:hover {
+		color: #00a99d;
+	}
+	/*First level styles */			
+	.main-menu > ul > li:hover > a {background-color:#00a99d;}
+
+@media only screen and (min-width: 992px) {
+	
+	/* Submenu style*/
+	.main-menu ul ul li:hover > a {background-color:#f9f9f9;color:#00a99d;}
+	/* Megamenu */
+	.main-menu ul li.megamenu .menu-wrapper {border-top: 2px solid #00a99d;}
+}
+
+@media only screen and (max-width: 991px) {
+	#header_menu{background:#00a99d url(../img/pattern_3.png) repeat;}
+	.main-menu ul li a:hover,
+	a.show-submenu:hover,
+	a.show-submenu:focus,
+	a.show-submenu-mega:hover,
+	a.show-submenu-mega:focus{color:#00a99d !important;background-color:#f9f9f9;}	
+}
+/*============================================================================================*/
+/* end MENU */
+/*============================================================================================*/
+
+	h2 span,
+	h3 span,
+	h4 span,
+	h5 span,
+	h6 span {
+		color:#ed5434;
+	}
+	#top_line {
+		background: #00a99d url(../img/pattern_3.png) repeat;
+	}
+	
+	.box_style_2 h3 {
+		background-color: #00a99d;
+		color: #fff;
+	}
+	
+	#tickets.table tr.total_row {
+		color: #00a99d;
+	}
+	
+	#tickets.table td input#total {
+		color: #00a99d;
+	}
+	
+	.indent_title_in i {
+		color: #00a99d;
+	}
+	
+	.bloglist ul li a:hover,
+	.bloglist h4 a:hover {
+		color: #00a99d;
+	}
+	.owl-theme .owl-dots .owl-dot.active span,
+	.owl-theme .owl-dots .owl-dot:hover span {
+		background: #00a99d;
+	}
+	.pagination > li > a:hover,
+	.pagination > li > span:hover {
+		background-color: #00a99d !important;
+		border-color: #00a99d !important;
+		color: #ffffff !important;
+	}
+	.list_tours ul li a .price_list {
+	color: #ed5434;
+	}
+	.list_tours ul li a .price_list:hover {
+		color: #ed5434;
+	}
+	.short_info strong {
+		background-color: #ed5434;
+	}
+	.price_grid {
+		background-color: #ed5434;
+	}
+	.banner {
+		background: #00a99d url(../img/pattern_3.png) repeat;
+	}
+	.panel-title a .indicator {
+		color: #00a99d;
+	}
+	.box_style_2 h3 span{
+	color: #FF9;
+}
